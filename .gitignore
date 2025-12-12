@@ -1,0 +1,40 @@
+# Build artifacts
+build/
+out/
+*.o
+*.obj
+*.pch
+*.pdb
+*.exe
+*.dll
+*.so
+*.dylib
+*.a
+*.lib
+*.lo
+*.la
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+compile_commands.json
+_deps/
+
+# IDEs and tooling
+.vscode/
+.idea/
+*.user
+*.workspace
+*.suo
+*.ncb
+*.opensdf
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+.envrc
+.cache
