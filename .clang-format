@@ -1,9 +1,27 @@
+---
+Language: Cpp
 BasedOnStyle: LLVM
+
+# Basic formatting
 IndentWidth: 4
-TabWidth: 4
-UseTab: Never
 ColumnLimit: 80
+Standard: Latest
+AccessModifierOffset: -4
+
+# Braces - same line for classes and functions
 BreakBeforeBraces: Attach
-AllowShortFunctionsOnASingleLine: Inline
-NamespaceIndentation: None
+
+# Empty braces on same line
+AllowShortFunctionsOnASingleLine: Empty
+AllowShortBlocksOnASingleLine: Empty
+
+# Function arguments - split on new lines when over column limit
+BinPackArguments: false
+BinPackParameters: false
+AlignAfterOpenBracket: AlwaysBreak
+
+# Pointers and references
+PointerAlignment: Left
+
+# Includes
 SortIncludes: CaseSensitive
